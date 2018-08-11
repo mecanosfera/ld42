@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm -r ./dist
+mkdir ./dist
+tsc --target "ES6" --outFile ./dist/assets/js/game.js ./src/interfaces.ts ./src/util.ts ./src/agent.ts ./src/grid.ts ./src/ui.ts ./src/game.ts
+cp -r ./assets ./dist
+cp ./node_modules/jquery/dist/jquery.min.js ./dist/assets/lib/jquery.min.js
+mv ./dist/assets/index.html ./dist/index.html

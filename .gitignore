@@ -1,0 +1,9 @@
+
+package-lock\.json
+node_modules/*
+
+\.atom-build\.yml
+
+dist/
+
+tmp/

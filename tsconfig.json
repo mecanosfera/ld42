@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"typeRoots":["node_modules/@types"],
+		"moduleResolution": "node",
+		"allowJs": false,
+		"target": "es6",
+		"module": "commonjs"
+	},
+	"files":[
+		"node_modules/@types/jquery/index.d.ts",
+		"node_modules/@types/jqueryui/index.d.ts",
+		"node_modules/@types/nedb/index.d.ts"
+	],
+	"include": [
+		"src/**/*.ts",
+		"src/*.ts"
+    ]
+}
